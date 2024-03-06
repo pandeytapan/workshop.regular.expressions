@@ -1,3 +1,6 @@
+# Documentation processors
+sphinx
+
 # Linters
 restructuredtext-lint
 flake8
