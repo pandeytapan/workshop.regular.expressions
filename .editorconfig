@@ -1,0 +1,54 @@
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8               # Use UTF-8 encoding
+end_of_line = lf              # Use LF as the line ending
+insert_final_newline = true   # Ensure a newline at the end of the file
+trim_trailing_whitespace = true  # Remove whitespace at the end of lines
+
+# Python specific settings
+[*.py]
+indent_style = space          # Use spaces for indentation, not tabs
+indent_size = 4               # 4 spaces per indentation level
+max_line_length = 79          # PEP 8 recommendation for line length
+
+# Django templates
+[*.html]
+indent_style = space
+indent_size = 2               # 2 spaces for HTML files in Django projects
+
+# JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2               # 2 spaces for indentation in JavaScript files
+
+# CSS files
+[*.css]
+indent_style = space
+indent_size = 2               # 2 spaces for indentation in CSS files
+
+# Markdown files (Markdown doesn’t trim trailing whitespace as it is used for line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# EditorConfig settings for reStructuredText files
+[*.rst]
+# Use spaces for indentation
+indent_style = space
+# reStructuredText typically uses a 3-space indentation in some projects,
+# but 2 or 4 spaces can also be common, depending on the team's preference.
+# Adjust the following line according to your project's standards:
+indent_size = 3
+# Ensure files use Unix-style line endings
+end_of_line = lf
+# Set file charset to utf-8
+charset = utf-8
+# Insert a final newline at the end of the file
+insert_final_newline = true
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+# Recommended max line length is 80 characters for readability in documentation
+max_line_length = 80
+
