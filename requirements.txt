@@ -6,3 +6,6 @@ sphinx_rtd_theme
 restructuredtext-lint
 flake8
 autopep8
+
+# Testing
+pytest
