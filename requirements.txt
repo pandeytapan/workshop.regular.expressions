@@ -1,5 +1,6 @@
 # Documentation processors
 sphinx
+sphinx_rtd_theme
 
 # Linters
 restructuredtext-lint
