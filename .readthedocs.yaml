@@ -38,9 +38,9 @@ html:
 
 # Control how Read the Docs clones your repo
 # This is particularly useful for large repos
-submodules:
-  include: true
-  recursive: true
+# submodules:
+#   include: true
+#   recursive: true
 
 # Define environment variables
 # Useful for private repositories or when you need to set configuration variables
