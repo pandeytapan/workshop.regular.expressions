@@ -3,18 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Regular Expressions Workshop's documentation!
-========================================================
+Hey! 😄. Lets play with  Regular Expressions
+==================================================
+
+I bet 😉 this will be the funniest activity you had in years, and you'll fall in 💘 with it.
+
+So let's get started 🚀.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   curriculum/index
+..
