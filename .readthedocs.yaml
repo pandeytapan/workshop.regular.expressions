@@ -13,36 +13,9 @@ formats:
 python:
   install:
     - requirements: requirements.txt
-#     # If your project needs to install the package itself to generate documentation
-#     - method: pip
-#       path: .
 
 # Define how to install your project
 build:
   os: "ubuntu-20.04"
   tools:
     python: "3.8"
-
-# Use the Read the Docs Sphinx theme
-# html:
-#   theme: "sphinx_rtd_theme"
-#   theme_options: {}
-
-# Optionally set the version of Python and requirements files
-
-# Specify custom domains (if you use this feature)
-# custom_domains:
-#   - domain: docs.example.com
-#     canonical: true
-
-# Control how Read the Docs clones your repo
-# This is particularly useful for large repos
-# submodules:
-#   include: true
-#   recursive: true
-
-# Define environment variables
-# Useful for private repositories or when you need to set configuration variables
-# env:
-#   TOKEN: "YOUR_TOKEN_HERE"
-
