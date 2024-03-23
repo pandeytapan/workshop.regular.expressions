@@ -10,12 +10,12 @@ formats:
   - htmlzip
 
 # Specify the Python version
-# python:
-#   install:
-#     - requirements: ./requirements.txt
-#     # If your project needs to install the package itself to generate documentation
-#     - method: pip
-#       path: .
+python:
+  install:
+    - requirements: requirements.txt
+    # If your project needs to install the package itself to generate documentation
+    - method: pip
+      path: ./
 
 # Define how to install your project
 build:
